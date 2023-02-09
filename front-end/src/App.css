@@ -1,0 +1,63 @@
+/* Add a custom primary color */
+:root {
+  --primary-color: #22c066;
+}
+
+/* Style the invoice container */
+.invoice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Style the header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Style the company name */
+.company-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Style the invoice information */
+.invoice-info {
+  text-align: right;
+  color: #333;
+}
+
+/* Style the table */
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header row */
+.invoice-table thead tr {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Style the table header cells */
+.invoice-table th {
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Style the table body cells */
+.invoice-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the total row */
+.total {
+  margin-top: 2rem;
+  text-align: right;
+  font-weight: bold;
+}
